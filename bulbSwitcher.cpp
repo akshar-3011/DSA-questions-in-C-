@@ -37,11 +37,8 @@ int bulbSwitch(int n) {
     return sqrt(n);
 } 
 int main() {
-    int n = 3;
-    cout << bulbSwitch(n) << endl; // Output: 1
-    n = 0;
-    cout << bulbSwitch(n) << endl; // Output: 0
-    n = 1;
-    cout << bulbSwitch(n) << endl; // Output: 1
+    int n;
+    cin >> n;
+    cout << bulbSwitch(n) << endl;
     return 0;
 }
